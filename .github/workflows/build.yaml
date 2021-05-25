@@ -5,7 +5,7 @@ on:
     path:
       packages.txt
 
-name: Build packages
+name: build
 
 jobs:
   render:
@@ -17,7 +17,7 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install remotes
         run: Rscript -e "install.packages('remotes')"
-      - name: Install drat.builder 
+      - name: Install drat.builder
         run: Rscript -e "remotes::install_github('richfitz/drat.builder')"
       - name: Update DRAT
         run: Rscript -e "drat.builder::build()"
