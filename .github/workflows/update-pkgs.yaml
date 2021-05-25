@@ -1,0 +1,26 @@
+on:
+  schedule:
+    - cron: "0 12 * * WED"
+  push:
+    path:
+      packages.txt
+
+name: Build packages
+
+jobs:
+  render:
+    name: Build packages on Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      - name: Install remotes
+        run: Rscript -e "install.packages('remotes')"
+      - name: Install drat.builder 
+        run: Rscript -e "remotes::install_github('richfitz/drat.builder')"
+      - name: Update DRAT
+        run: Rscript -e "drat.builder::build()"
+      - name: Push results
+        run: git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
+
