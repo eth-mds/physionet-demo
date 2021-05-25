@@ -1,11 +1,11 @@
 Package: eicu.demo
-Version: 0.0.0.9000
-Enhances: sepsr
-MD5sum: 95668bec9a33af6a41669997fad3570f
+Version: 1.0.0
+Enhances: ricu
+MD5sum: 1add4558122fac362c1eab1d9e076e69
 NeedsCompilation: no
 
 Package: mimic.demo
-Version: 0.0.0.9000
-Enhances: sepsr
-MD5sum: b81bb6ada796efd25b2497c8ba4ad8a0
+Version: 1.0.0
+Enhances: ricu
+MD5sum: 5d89a764f9c6f7867101587bae8186ac
 NeedsCompilation: no

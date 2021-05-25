@@ -46,7 +46,8 @@ setup_bin_paths <- function(base_path) {
   setup_type("mac.binary.el-capitan", seq(3.4, 3.6, by = 0.1))
 }
 
-setup_bin_paths("path/to/pkg/root/docs")
+setup_bin_paths("docs")
+tools::write_PACKAGES(file.path("docs", "src", "contrib"))
 ```
 
 The selection of version numbers is taken from
