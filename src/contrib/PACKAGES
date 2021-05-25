@@ -1,0 +1,5 @@
+Package: mimic.demo
+Version: 1.0.0
+Enhances: ricu
+MD5sum: 1fa7cb5b0b14172568a42dfe53892d31
+NeedsCompilation: no
