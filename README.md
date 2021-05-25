@@ -40,8 +40,8 @@ setup_bin_paths <- function(base_path) {
   }
 
   setup_type("win.binary", c(seq(3.2, 3.6, by = 0.1),
-                             seq(4.0, 4.1, by = 0.1)))
-  setup_type("mac.binary", seq(4.0, 4.0, by = 0.1))
+                             seq(4.0, 4.2, by = 0.1)))
+  setup_type("mac.binary", seq(4.0, 4.1, by = 0.1))
   setup_type("mac.binary.mavericks", seq(3.2, 3.3, by = 0.1))
   setup_type("mac.binary.el-capitan", seq(3.4, 3.6, by = 0.1))
 }
