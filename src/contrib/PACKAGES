@@ -1,3 +1,9 @@
+Package: eicu.demo
+Version: 1.0.0
+Enhances: ricu
+MD5sum: 8f07be9ca74a3b02b87545a92578899b
+NeedsCompilation: no
+
 Package: mimic.demo
 Version: 1.0.0
 Enhances: ricu
