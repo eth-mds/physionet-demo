@@ -9,3 +9,9 @@ Version: 1.0.0
 Enhances: ricu
 MD5sum: e0cd6862f7bade04f24410afe11c5653
 NeedsCompilation: no
+
+Package: mimic.demo
+Version: 1.0.1
+Enhances: ricu
+MD5sum: c3a1eb13581fcdf6c85011ffb7ae6364
+NeedsCompilation: no
