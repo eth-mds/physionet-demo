@@ -4,6 +4,12 @@ Enhances: ricu
 MD5sum: 8f07be9ca74a3b02b87545a92578899b
 NeedsCompilation: no
 
+Package: eicu.demo
+Version: 1.0.1
+Enhances: ricu
+MD5sum: dae3115c8d72bedf75ddb4bf4ee7d881
+NeedsCompilation: no
+
 Package: mimic.demo
 Version: 1.0.0
 Enhances: ricu
