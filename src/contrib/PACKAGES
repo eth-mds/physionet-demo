@@ -1,7 +1,7 @@
 Package: eicu.demo
 Version: 1.0.0
 Enhances: ricu
-MD5sum: 8f07be9ca74a3b02b87545a92578899b
+MD5sum: ab646a2d66e837db8044649702814afb
 NeedsCompilation: no
 
 Package: eicu.demo
