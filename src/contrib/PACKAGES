@@ -13,7 +13,7 @@ NeedsCompilation: no
 Package: mimic.demo
 Version: 1.0.0
 Enhances: ricu
-MD5sum: e0cd6862f7bade04f24410afe11c5653
+MD5sum: 76794ee71e2aaf116dbd545661785b36
 NeedsCompilation: no
 
 Package: mimic.demo
