@@ -23,7 +23,7 @@ jobs:
         run: Rscript -e "install.packages('remotes')"
 
       - name: Install drat.builder
-        run: Rscript -e "remotes::install_github('richfitz/drat.builder')"
+        run: Rscript -e "remotes::install_github('nbenn/drat.builder')"
 
       - name: Update DRAT
         run: |
