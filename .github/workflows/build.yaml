@@ -10,8 +10,9 @@ name: build
 
 jobs:
   build:
-    name: Build packages on Ubuntu
+    name: Update DRAT on Ubuntu
     runs-on: ubuntu-latest
+    environment: build
     steps:
       - uses: actions/checkout@v2
 
@@ -23,6 +24,8 @@ jobs:
         run: Rscript -e "install.packages('remotes')"
 
       - name: Install drat.builder
+        env:
+          GITHUB_PAT: ${{ secrets.NBENN_PUBLIC }}
         run: Rscript -e "remotes::install_github('nbenn/drat.builder')"
 
       - name: Update DRAT
