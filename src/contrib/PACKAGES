@@ -7,7 +7,7 @@ NeedsCompilation: no
 Package: eicu.demo
 Version: 1.0.1
 Enhances: ricu
-MD5sum: dae3115c8d72bedf75ddb4bf4ee7d881
+MD5sum: 25202afa233e510fa19bc5589e1204a5
 NeedsCompilation: no
 
 Package: mimic.demo
@@ -19,5 +19,5 @@ NeedsCompilation: no
 Package: mimic.demo
 Version: 1.0.1
 Enhances: ricu
-MD5sum: c3a1eb13581fcdf6c85011ffb7ae6364
+MD5sum: 7c604ddf19174d014ffc8dff3caa340c
 NeedsCompilation: no
