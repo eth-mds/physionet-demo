@@ -6,5 +6,5 @@ A [`drat`](https://github.com/eddelbuettel/drat) repo for data packages [`mimic.
 
 ```r
 remotes::install_github("nbenn/drat.builder")
-drat.builder::build()
+drat.builder::build(check_cran = TRUE)
 ```
