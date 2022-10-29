@@ -21,3 +21,12 @@ Version: 1.0.1
 Enhances: ricu
 MD5sum: 7c604ddf19174d014ffc8dff3caa340c
 NeedsCompilation: no
+
+Package: mockthat
+Version: 0.2.8
+Depends: R (>= 3.3.0)
+Imports: utils, rlang
+Suggests: testthat, pkgload, curl, jsonlite, withr
+License: MIT + file LICENSE
+MD5sum: b895d9c7af04f8cbe394f86f1b2d4c8e
+NeedsCompilation: no
