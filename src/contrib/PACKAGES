@@ -28,5 +28,5 @@ Depends: R (>= 3.3.0)
 Imports: utils, rlang
 Suggests: testthat, pkgload, curl, jsonlite, withr
 License: MIT + file LICENSE
-MD5sum: b895d9c7af04f8cbe394f86f1b2d4c8e
+MD5sum: a320fe7b232f6e62de5fdfba2bb980de
 NeedsCompilation: no
